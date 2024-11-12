@@ -69,8 +69,8 @@ body {
 }
 
 .fifa-icon {
-    width: 150px; /* Resized to 150px */
-    height: 150px; /* Resized to 150px */
+    width: 200px; /* Resized to maximum 200px */
+    height: 200px; /* Resized to maximum 200px */
     object-fit: contain;
     border-radius: 50%;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
