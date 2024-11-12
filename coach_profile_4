@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach Academy - Public Coach Profile</title>
+    <link rel="stylesheet" href="coach_profile_4.css">
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="profile-header">
+            <div class="fifa-icon-container">
+                <img src="https://cewatlac.github.io/ProfilesCA/AhmedAshraf.png" alt="FIFA Icon" class="fifa-icon">
+            </div>
+            <div class="profile-info">
+                <h1>John Doe</h1>
+                <p class="nickname">Nickname: TheCodeMaster</p>
+                <p class="tagline">"Empowering the next generation of coders"</p>
+            </div>
+        </header>
+
+        <!-- Badges Section -->
+        <section class="badges-section">
+            <h2>Achievements</h2>
+            <div class="badges">
+                <div class="badge">
+                    <span>🏆 Coach of the Month</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>🎓 100+ Students Mentored</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-medal"></i>
+                    <span>🥇 2024 Excellence Award</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- General Information -->
+        <section class="general-info">
+            <h2>General Information</h2>
+            <ul>
+                <li><strong>LinkedIn Profile:</strong> <a href="#">linkedin.com/johndoe</a></li>
+                <li><strong>GitHub Profile:</strong> <a href="#">github.com/johndoe</a></li>
+                <li><strong>Stack Overflow Profile:</strong> <a href="#">stackoverflow.com/johndoe</a></li>
+                <li><strong>Teaching/Mentoring Hours:</strong> 320 (200 with Coach Academy)</li>
+                <li><strong>Assigned Groups:</strong> Beginner Level, Advanced Algorithms</li>
+                <li><strong>Number of Students:</strong> 150+ (120 with Coach Academy)</li>
+                <li><strong>Languages Spoken:</strong> English, Spanish</li>
+                <li><strong>Student Success Rate:</strong> 92%</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
