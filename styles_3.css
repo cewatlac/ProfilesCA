@@ -1,0 +1,149 @@
+/* styles_2.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative; /* Make this section relative for absolute positioning of the icon */
+}
+
+.profile-image-container {
+    margin-right: 20px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.profile-info .nickname {
+    font-size: 18px;
+    color: #777;
+}
+
+.profile-info .tagline {
+    font-size: 16px;
+    color: #333;
+    font-style: italic;
+}
+
+/* FIFA Icon in the Top-Right Corner */
+.fifa-icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.fifa-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #d4af37; /* Gold border for FIFA-style */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Badges Section */
+.badges-section, .general-info, .reviews-section, .skills-section, .additional-info {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.badges {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.badge i {
+    margin-right: 10px;
+    color: #ffb400;
+}
+
+/* FIFA-style badge */
+.fifa-badge {
+    background-color: #ffeb3b;
+    border-radius: 50%;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.fifa-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #d4af37; /* Gold border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.fifa-badge span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Reviews Section */
+.reviews-section blockquote {
+    background-color: #fff;
+    border-left: 4px solid #ffb400;
+    padding-left: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.reviews-section footer {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Skills Section */
+.skills-section ul li {
+    display: flex;
+    align-items: center;
+}
+
+.skills-section ul li i {
+    color: #28a745;
+    margin-right: 10px;
+}
