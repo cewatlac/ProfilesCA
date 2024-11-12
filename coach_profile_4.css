@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container for the Profile */
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* Header Section */
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.fifa-icon-container {
+    margin-right: 20px;
+}
+
+.fifa-icon {
+    width: 200px;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
+    border-radius: 50%; /* Optional: make the icon circular */
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-info h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #333;
+}
+
+.profile-info .nickname {
+    font-size: 18px;
+    color: #777;
+}
+
+.profile-info .tagline {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Badges Section */
+.badges-section {
+    margin-bottom: 40px;
+}
+
+.badges-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.badges {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.badge i {
+    margin-right: 10px;
+    color: #ffb400;
+}
+
+/* General Information Section */
+.general-info {
+    margin-bottom: 40px;
+}
+
+.general-info h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.general-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.general-info li {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.general-info li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.general-info li a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-info h1 {
+        font-size: 28px;
+    }
+}
